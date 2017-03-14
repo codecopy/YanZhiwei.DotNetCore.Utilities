@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YanZhiwei.DotNetCore.Framework.Contract\YanZhiwei.DotNetCore.Framework.Contract.csproj" />
+    <ProjectReference Include="..\YanZhiwei.DotNetCore.Utilities\YanZhiwei.DotNetCore.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
