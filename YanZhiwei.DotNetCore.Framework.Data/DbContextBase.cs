@@ -15,16 +15,9 @@ namespace YanZhiwei.DotNetCore.Framework.Data
     /// </summary>
     public class DbContextBase<F> : DbContext, IDataRepository<F>, IDisposable
     {
-        ///// <summary>
-        ///// 构造函数
-        ///// </summary>
-        ///// <param name="connectionString">连接字符串</param>
-        //public DbContextBase(string connectionString)
-        //{
-        //    Database.Connection.ConnectionString = connectionString;
-        //    Configuration.LazyLoadingEnabled = false;
-        //    Configuration.ProxyCreationEnabled = false;
-        //}
+        public DbContextBase(DbContextOptions<DbContextBase<F>> options) : base(options)
+        {
+        }
 
         ///// <summary>
         ///// 构造函数
