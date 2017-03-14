@@ -1,11 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
+using System.Reflection;
 using YanZhiwei.DotNetCore.Framework.Contract;
 using YanZhiwei.DotNetCore.Utilities.Collection;
 using YanZhiwei.DotNetCore.Utilities.Common;
@@ -17,27 +15,27 @@ namespace YanZhiwei.DotNetCore.Framework.Data
     /// </summary>
     public class DbContextBase<F> : DbContext, IDataRepository<F>, IDisposable
     {
-        /// <summary>
-        /// 构造函数
-        /// </summary>
-        /// <param name="connectionString">连接字符串</param>
-        public DbContextBase(string connectionString)
-        {
-            Database.Connection.ConnectionString = connectionString;
-            Configuration.LazyLoadingEnabled = false;
-            Configuration.ProxyCreationEnabled = false;
-        }
+        ///// <summary>
+        ///// 构造函数
+        ///// </summary>
+        ///// <param name="connectionString">连接字符串</param>
+        //public DbContextBase(string connectionString)
+        //{
+        //    Database.Connection.ConnectionString = connectionString;
+        //    Configuration.LazyLoadingEnabled = false;
+        //    Configuration.ProxyCreationEnabled = false;
+        //}
 
-        /// <summary>
-        /// 构造函数
-        /// </summary>
-        /// <param name="connectionString">连接字符串</param>
-        /// <param name="auditLogger">IAuditable</param>
-        public DbContextBase(string connectionString, IAuditable auditLogger)
-        : this(connectionString)
-        {
-            AuditLogger = auditLogger;
-        }
+        ///// <summary>
+        ///// 构造函数
+        ///// </summary>
+        ///// <param name="connectionString">连接字符串</param>
+        ///// <param name="auditLogger">IAuditable</param>
+        //public DbContextBase(string connectionString, IAuditable auditLogger)
+        //: this(connectionString)
+        //{
+        //    AuditLogger = auditLogger;
+        //}
 
         /// <summary>
         /// 日志接口
@@ -68,7 +66,7 @@ namespace YanZhiwei.DotNetCore.Framework.Data
         /// <returns>
         /// 实体类
         /// </returns>
-        public T Find<T>(params object[] keyValues)
+        public new T Find<T>(params object[] keyValues)
         where T : ModelBase<F>
         {
             return this.Set<T>().Find(keyValues);
@@ -138,18 +136,6 @@ namespace YanZhiwei.DotNetCore.Framework.Data
         }
 
         /// <summary>
-        /// Sql语句查询
-        /// </summary>
-        /// <typeparam name="T">泛型</typeparam>
-        /// <param name="sql">sql语句</param>
-        /// <param name="parameters">参数</param>
-        /// <returns>IEnumerable</returns>
-        public IEnumerable<T> SqlQuery<T>(string sql, params object[] parameters)
-        {
-            return this.Database.SqlQuery<T>(sql, parameters);
-        }
-
-        /// <summary>
         /// 更新
         /// </summary>
         /// <typeparam name="T">泛型</typeparam>
@@ -158,7 +144,7 @@ namespace YanZhiwei.DotNetCore.Framework.Data
         /// <returns>
         /// 实体类
         /// </returns>
-        public T Update<T>(T entity)
+        public new T Update<T>(T entity)
         where T : ModelBase<F>
         {
             var set = this.Set<T>();
@@ -178,19 +164,19 @@ namespace YanZhiwei.DotNetCore.Framework.Data
 
             foreach (var dbEntry in this.ChangeTracker.Entries<ModelBase>().Where(p => p.State == EntityState.Added || p.State == EntityState.Deleted || p.State == EntityState.Modified))
             {
-                EditableAttribute _auditableAttr = dbEntry.Entity.GetType().GetCustomAttributes(typeof(AuditableAttribute), false).SingleOrDefault() as AuditableAttribute;
+                AuditableAttribute _auditableAttr = dbEntry.Entity.GetType().GetTypeInfo().GetCustomAttribute<AuditableAttribute>();
 
                 if (_auditableAttr == null)
                     continue;
 
-                string _operaterName = ServiceCallContext.Current.Operater.Name;
-                Task.Factory.StartNew(() =>
-                {
-                    TableAttribute _tableAttr = dbEntry.Entity.GetType().GetCustomAttributes(typeof(TableAttribute), false).SingleOrDefault() as TableAttribute;
-                    string _tableName = _tableAttr != null ? _tableAttr.Name : dbEntry.Entity.GetType().Name;
-                    string _moduleName = dbEntry.Entity.GetType().FullName.Split('.').Skip(1).FirstOrDefault();
-                    this.AuditLogger.WriteLog(dbEntry.Entity.ID, _operaterName, _moduleName, _tableName, dbEntry.State.ToString(), dbEntry.Entity);
-                });
+                //string _operaterName = ServiceCallContext.Current.Operater.Name;
+                //Task.Factory.StartNew(() =>
+                //{
+                //    TableAttribute _tableAttr = dbEntry.Entity.GetType().GetTypeInfo().GetCustomAttributes(typeof(TableAttribute), false).SingleOrDefault() as TableAttribute;
+                //    string _tableName = _tableAttr != null ? _tableAttr.Name : dbEntry.Entity.GetType().Name;
+                //    string _moduleName = dbEntry.Entity.GetType().FullName.Split('.').Skip(1).FirstOrDefault();
+                //    this.AuditLogger.WriteLog(dbEntry.Entity.ID, _operaterName, _moduleName, _tableName, dbEntry.State.ToString(), dbEntry.Entity);
+                //});
             }
         }
     }
