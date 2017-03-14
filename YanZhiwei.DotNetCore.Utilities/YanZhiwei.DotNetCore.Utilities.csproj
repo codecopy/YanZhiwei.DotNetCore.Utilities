@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YanZhiwei.DotNetCore.Interfaces\YanZhiwei.DotNetCore.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
