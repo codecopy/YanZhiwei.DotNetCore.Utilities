@@ -1,7 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageId>DotNetCore.Interfaces</PackageId>
+    <Authors>言志伟</Authors>
+    <Company>言志伟</Company>
+    <Product>DotNetCore.Interfaces</Product>
   </PropertyGroup>
 
 </Project>

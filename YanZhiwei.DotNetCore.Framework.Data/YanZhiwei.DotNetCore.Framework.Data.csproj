@@ -2,7 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
+    <PackageId>DotNetCore.Framework.Data</PackageId>
+    <Authors>言志伟</Authors>
+    <Company>言志伟</Company>
+    <Product>DotNetCore.Framework.Data</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

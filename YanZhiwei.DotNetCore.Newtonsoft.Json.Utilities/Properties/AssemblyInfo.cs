@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities")]
+[assembly: AssemblyProduct("DotNetCore.Newtonsoft.Json.Utilities")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

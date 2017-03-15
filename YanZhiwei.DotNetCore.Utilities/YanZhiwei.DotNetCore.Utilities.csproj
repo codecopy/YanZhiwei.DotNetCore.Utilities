@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>YanZhiwei.DotNetCore.Utilities</AssemblyName>
+    <PackageId>DotNetCore.Utilities</PackageId>
+    <Authors>言志伟</Authors>
+    <Company>言志伟</Company>
+    <Product>DotNetCore.Utilities</Product>
+    <Description />
   </PropertyGroup>
 
   <ItemGroup>
