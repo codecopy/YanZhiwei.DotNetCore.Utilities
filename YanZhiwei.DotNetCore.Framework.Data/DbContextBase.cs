@@ -15,8 +15,6 @@ namespace YanZhiwei.DotNetCore.Framework.Data
     /// </summary>
     public class DbContextBase<F> : DbContext, IDataRepository<F>, IDisposable
     {
-     
-
         ///// <summary>
         ///// 构造函数
         ///// </summary>
