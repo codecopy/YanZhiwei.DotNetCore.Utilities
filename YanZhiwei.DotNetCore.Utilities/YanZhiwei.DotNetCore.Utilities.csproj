@@ -8,6 +8,7 @@
     <Company>言志伟</Company>
     <Product>DotNetCore.Utilities</Product>
     <Description />
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
