@@ -1,4 +1,4 @@
-﻿namespace YanZhiwei.DotNetCore.Interfaces
+﻿namespace YanZhiwei.NetStandard.Interfaces
 {
     /// <summary>
     /// 分页集合接口
