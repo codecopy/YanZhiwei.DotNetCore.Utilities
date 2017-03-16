@@ -1,4 +1,4 @@
-﻿namespace YanZhiwei.DotNetCore.Framework.Contract
+﻿namespace YanZhiwei.NetStandard.Framework.Contract
 {
     using System;
 

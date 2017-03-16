@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using YanZhiwei.DotNetCore.Framework.Contract;
-using YanZhiwei.DotNetCore.Utilities.Collection;
-using YanZhiwei.DotNetCore.Utilities.Common;
+using YanZhiwei.NetStandard.Framework.Contract;
+using YanZhiwei.NetStandard.Utilities.Collection;
+using YanZhiwei.NetStandard.Utilities.Common;
 
 namespace YanZhiwei.DotNetCore.Framework.Data
 {

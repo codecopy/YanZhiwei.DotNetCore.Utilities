@@ -14,8 +14,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YanZhiwei.DotNetCore.Framework.Contract\YanZhiwei.DotNetCore.Framework.Contract.csproj" />
+    <ProjectReference Include="..\YanZhiwei.DotNetCore.Framework.Contract\YanZhiwei.NetStandard.Framework.Contract.csproj" />
     <ProjectReference Include="..\YanZhiwei.DotNetCore.Interfaces\YanZhiwei.DotNetCore.Interfaces.csproj" />
     <ProjectReference Include="..\YanZhiwei.DotNetCore.Utilities\YanZhiwei.DotNetCore.Utilities.csproj" />
+    <ProjectReference Include="..\YanZhiwei.DotNetCore.Utilities\YanZhiwei.NetStandard.Utilities.csproj" />
+    <ProjectReference Include="..\YanZhiwei.NetStandard.Interfaces\YanZhiwei.NetStandard.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

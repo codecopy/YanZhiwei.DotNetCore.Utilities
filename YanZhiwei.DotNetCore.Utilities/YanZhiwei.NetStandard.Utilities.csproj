@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>NetStandard.Utilities</PackageId>
+    <Authors>言志伟</Authors>
+    <Product>NetStandard.Utilities</Product>
+    <Company>言志伟</Company>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YanZhiwei.NetStandard.Interfaces\YanZhiwei.NetStandard.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using YanZhiwei.DotNetCore.Utilities.Collection;
+using YanZhiwei.NetStandard.Utilities.Collection;
 
-namespace YanZhiwei.DotNetCore.Utilities.Common
+namespace YanZhiwei.NetStandard.Utilities.Common
 {
     /// <summary>
     /// 分页帮助类

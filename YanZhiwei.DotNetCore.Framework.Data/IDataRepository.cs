@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using YanZhiwei.DotNetCore.Framework.Contract;
-using YanZhiwei.DotNetCore.Utilities.Collection;
+using YanZhiwei.NetStandard.Framework.Contract;
+using YanZhiwei.NetStandard.Utilities.Collection;
 
 namespace YanZhiwei.DotNetCore.Framework.Data
 {

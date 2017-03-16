@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace YanZhiwei.DotNetCore.Framework.Contract
+namespace YanZhiwei.NetStandard.Framework.Contract
 {
     /// <summary>
     /// 自定义日志属性

@@ -1,4 +1,4 @@
-﻿namespace YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities
+﻿namespace YanZhiwei.NetStandard.Newtonsoft.Json.Utilities
 {
     using global::Newtonsoft.Json;
     using System;

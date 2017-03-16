@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using YanZhiwei.DotNetCore.Interfaces;
+using YanZhiwei.NetStandard.Interfaces;
 
-namespace YanZhiwei.DotNetCore.Utilities.Collection
+namespace YanZhiwei.NetStandard.Utilities.Collection
 {
     /// <summary>
     /// 分页数据集合，用于后端返回分页好的集合及前端视图分页控件绑定

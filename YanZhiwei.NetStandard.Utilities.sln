@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.DotNetCore.Plugins", "YanZhiwei.DotNetCore.Plugins", "{3473BEA3-D5B9-4CB7-B0EA-6ADDDE6CF42A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.NetStandard.Plugins", "YanZhiwei.NetStandard.Plugins", "{3473BEA3-D5B9-4CB7-B0EA-6ADDDE6CF42A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.DotNetCore.Framework", "YanZhiwei.DotNetCore.Framework", "{7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.NetStandard.Framework", "YanZhiwei.NetStandard.Framework", "{7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.DotNetCore.Utilities", "YanZhiwei.DotNetCore.Utilities\YanZhiwei.DotNetCore.Utilities.csproj", "{CE549718-0389-4751-BD81-22AC6076732F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Utilities", "YanZhiwei.DotNetCore.Utilities\YanZhiwei.NetStandard.Utilities.csproj", "{CE549718-0389-4751-BD81-22AC6076732F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities", "YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities\YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities.csproj", "{6C37D538-ACA0-4ECD-89D3-72C17239623F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Newtonsoft.Json.Utilities", "YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities\YanZhiwei.NetStandard.Newtonsoft.Json.Utilities.csproj", "{6C37D538-ACA0-4ECD-89D3-72C17239623F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.DotNetCore.Framework.Contract", "YanZhiwei.DotNetCore.Framework.Contract\YanZhiwei.DotNetCore.Framework.Contract.csproj", "{4EBC7029-920F-4F61-BB7E-E848088E14C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Framework.Contract", "YanZhiwei.DotNetCore.Framework.Contract\YanZhiwei.NetStandard.Framework.Contract.csproj", "{4EBC7029-920F-4F61-BB7E-E848088E14C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.DotNetCore.Framework.Data", "YanZhiwei.DotNetCore.Framework.Data\YanZhiwei.DotNetCore.Framework.Data.csproj", "{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Framework.Data", "YanZhiwei.DotNetCore.Framework.Data\YanZhiwei.NetStandard.Framework.Data.csproj", "{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Interfaces", "YanZhiwei.NetStandard.Interfaces\YanZhiwei.NetStandard.Interfaces.csproj", "{4E55FBBD-C203-49E7-B82B-439A9B117AC3}"
 EndProject
