@@ -6,7 +6,7 @@
     <Authors>言志伟</Authors>
     <Product>NetStandard.Utilities</Product>
     <Company>言志伟</Company>
-    <Version>2.0.0</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

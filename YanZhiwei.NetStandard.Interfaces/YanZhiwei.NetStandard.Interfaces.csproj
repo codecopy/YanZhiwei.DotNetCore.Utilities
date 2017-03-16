@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <PackageId>NetStandard.Interfaces</PackageId>
-    <Version>2.0.0</Version>
+    <Version>1.0.0</Version>
     <Authors>言志伟</Authors>
     <Company>言志伟</Company>
     <Product>NetStandard.Interfaces</Product>
