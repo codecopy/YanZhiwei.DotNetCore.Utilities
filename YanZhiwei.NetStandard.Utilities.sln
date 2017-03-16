@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.NetStandard.Plugi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.NetStandard.Framework", "YanZhiwei.NetStandard.Framework", "{7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Utilities", "YanZhiwei.DotNetCore.Utilities\YanZhiwei.NetStandard.Utilities.csproj", "{CE549718-0389-4751-BD81-22AC6076732F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Newtonsoft.Json.Utilities", "YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities\YanZhiwei.NetStandard.Newtonsoft.Json.Utilities.csproj", "{6C37D538-ACA0-4ECD-89D3-72C17239623F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Framework.Contract", "YanZhiwei.DotNetCore.Framework.Contract\YanZhiwei.NetStandard.Framework.Contract.csproj", "{4EBC7029-920F-4F61-BB7E-E848088E14C4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Framework.Data", "YanZhiwei.DotNetCore.Framework.Data\YanZhiwei.NetStandard.Framework.Data.csproj", "{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Interfaces", "YanZhiwei.NetStandard.Interfaces\YanZhiwei.NetStandard.Interfaces.csproj", "{4E55FBBD-C203-49E7-B82B-439A9B117AC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Utilities", "YanZhiwei.NetStandard.Utilities\YanZhiwei.NetStandard.Utilities.csproj", "{B43971FD-978C-4978-AF7F-2E42E82EECF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Newtonsoft.Json.Utilities", "YanZhiwei.NetStandard.Newtonsoft.Json.Utilities\YanZhiwei.NetStandard.Newtonsoft.Json.Utilities.csproj", "{93E0FA0A-CF76-4AF2-A266-D912ECD094E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Framework.Contract", "YanZhiwei.NetStandard.Framework.Contract\YanZhiwei.NetStandard.Framework.Contract.csproj", "{FC1082AB-FB43-402A-8A70-82C626F0A466}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Framework.Data", "YanZhiwei.NetStandard.Framework.Data\YanZhiwei.NetStandard.Framework.Data.csproj", "{8A39F101-7B38-4E54-BACC-B8EC07E3233C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,33 +23,33 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE549718-0389-4751-BD81-22AC6076732F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE549718-0389-4751-BD81-22AC6076732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE549718-0389-4751-BD81-22AC6076732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE549718-0389-4751-BD81-22AC6076732F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C37D538-ACA0-4ECD-89D3-72C17239623F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C37D538-ACA0-4ECD-89D3-72C17239623F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C37D538-ACA0-4ECD-89D3-72C17239623F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C37D538-ACA0-4ECD-89D3-72C17239623F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EBC7029-920F-4F61-BB7E-E848088E14C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EBC7029-920F-4F61-BB7E-E848088E14C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EBC7029-920F-4F61-BB7E-E848088E14C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EBC7029-920F-4F61-BB7E-E848088E14C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E55FBBD-C203-49E7-B82B-439A9B117AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E55FBBD-C203-49E7-B82B-439A9B117AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E55FBBD-C203-49E7-B82B-439A9B117AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E55FBBD-C203-49E7-B82B-439A9B117AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43971FD-978C-4978-AF7F-2E42E82EECF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43971FD-978C-4978-AF7F-2E42E82EECF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43971FD-978C-4978-AF7F-2E42E82EECF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43971FD-978C-4978-AF7F-2E42E82EECF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E0FA0A-CF76-4AF2-A266-D912ECD094E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E0FA0A-CF76-4AF2-A266-D912ECD094E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E0FA0A-CF76-4AF2-A266-D912ECD094E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E0FA0A-CF76-4AF2-A266-D912ECD094E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1082AB-FB43-402A-8A70-82C626F0A466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1082AB-FB43-402A-8A70-82C626F0A466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1082AB-FB43-402A-8A70-82C626F0A466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1082AB-FB43-402A-8A70-82C626F0A466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6C37D538-ACA0-4ECD-89D3-72C17239623F} = {3473BEA3-D5B9-4CB7-B0EA-6ADDDE6CF42A}
-		{4EBC7029-920F-4F61-BB7E-E848088E14C4} = {7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}
-		{9BBCCFE2-94B6-4A91-8CC4-DFA999BD0987} = {7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}
+		{93E0FA0A-CF76-4AF2-A266-D912ECD094E1} = {3473BEA3-D5B9-4CB7-B0EA-6ADDDE6CF42A}
+		{FC1082AB-FB43-402A-8A70-82C626F0A466} = {7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}
+		{8A39F101-7B38-4E54-BACC-B8EC07E3233C} = {7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}
 	EndGlobalSection
 EndGlobal
