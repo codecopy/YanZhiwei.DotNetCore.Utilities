@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\YanZhiwei.DotNetCore.Interfaces\YanZhiwei.DotNetCore.Interfaces.csproj" />
+    <ProjectReference Include="..\YanZhiwei.DotNetCore.Interfaces\YanZhiwei.NetStandard.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
