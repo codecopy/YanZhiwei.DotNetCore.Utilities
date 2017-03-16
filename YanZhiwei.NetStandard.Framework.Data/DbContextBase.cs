@@ -8,7 +8,7 @@ using YanZhiwei.NetStandard.Framework.Contract;
 using YanZhiwei.NetStandard.Utilities.Collection;
 using YanZhiwei.NetStandard.Utilities.Common;
 
-namespace YanZhiwei.DotNetCore.Framework.Data
+namespace YanZhiwei.NetStandard.Framework.Data
 {
     /// <summary>
     /// DAL基类，实现Repository通用泛型数据访问模式

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using YanZhiwei.NetStandard.Framework.Contract;
 using YanZhiwei.NetStandard.Utilities.Collection;
 
-namespace YanZhiwei.DotNetCore.Framework.Data
+namespace YanZhiwei.NetStandard.Framework.Data
 {
     /// <summary>
     /// 仓储接口

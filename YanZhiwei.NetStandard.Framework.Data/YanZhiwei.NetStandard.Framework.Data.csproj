@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <PackageId>DotNetCore.Framework.Data</PackageId>
+    <PackageId>NetStandard.Framework.Data</PackageId>
     <Authors>言志伟</Authors>
     <Company>言志伟</Company>
-    <Product>DotNetCore.Framework.Data</Product>
+    <Product>NetStandard.Framework.Data</Product>
   </PropertyGroup>
 
   <ItemGroup>
