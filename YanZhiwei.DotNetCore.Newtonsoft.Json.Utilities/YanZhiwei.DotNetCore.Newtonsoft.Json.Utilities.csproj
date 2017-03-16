@@ -2,15 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities</AssemblyName>
     <PackageId>DotNetCore.Newtonsoft.Json.Utilities</PackageId>
-    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
-    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Authors>言志伟</Authors>
+    <Company>言志伟</Company>
+    <Product>DotNetCore.Newtonsoft.Json.Utilities</Product>
   </PropertyGroup>
 
   <ItemGroup>
