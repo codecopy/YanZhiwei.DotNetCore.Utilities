@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.DotNetCore.Plugin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.DotNetCore.Framework", "YanZhiwei.DotNetCore.Framework", "{7886D5C4-FFB9-445A-AEF7-1BE09CC9C227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.NetStandard.Interfaces", "YanZhiwei.DotNetCore.Interfaces\YanZhiwei.NetStandard.Interfaces.csproj", "{D34F2670-184A-423A-A6FF-436A2DBA4E44}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.DotNetCore.Utilities", "YanZhiwei.DotNetCore.Utilities\YanZhiwei.DotNetCore.Utilities.csproj", "{CE549718-0389-4751-BD81-22AC6076732F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities", "YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities\YanZhiwei.DotNetCore.Newtonsoft.Json.Utilities.csproj", "{6C37D538-ACA0-4ECD-89D3-72C17239623F}"
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D34F2670-184A-423A-A6FF-436A2DBA4E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D34F2670-184A-423A-A6FF-436A2DBA4E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D34F2670-184A-423A-A6FF-436A2DBA4E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D34F2670-184A-423A-A6FF-436A2DBA4E44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE549718-0389-4751-BD81-22AC6076732F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE549718-0389-4751-BD81-22AC6076732F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE549718-0389-4751-BD81-22AC6076732F}.Release|Any CPU.ActiveCfg = Release|Any CPU
