@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YanZhiwei.NetStandard.Plugins", "YanZhiwei.NetStandard.Plugins", "{3473BEA3-D5B9-4CB7-B0EA-6ADDDE6CF42A}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Framework.Contract", "YanZhiwei.NetStandard.Framework.Contract\YanZhiwei.NetStandard.Framework.Contract.csproj", "{FC1082AB-FB43-402A-8A70-82C626F0A466}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YanZhiwei.NetStandard.Framework.Data", "YanZhiwei.NetStandard.Framework.Data\YanZhiwei.NetStandard.Framework.Data.csproj", "{8A39F101-7B38-4E54-BACC-B8EC07E3233C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YanZhiwei.AspNetCore.Utilities", "YanZhiwei.AspNetCore.Utilities\YanZhiwei.AspNetCore.Utilities.csproj", "{0CBDBE08-11DB-4DEE-96AF-AB228776B444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A39F101-7B38-4E54-BACC-B8EC07E3233C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBDBE08-11DB-4DEE-96AF-AB228776B444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBDBE08-11DB-4DEE-96AF-AB228776B444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBDBE08-11DB-4DEE-96AF-AB228776B444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBDBE08-11DB-4DEE-96AF-AB228776B444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
